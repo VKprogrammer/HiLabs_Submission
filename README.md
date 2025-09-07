@@ -21,7 +21,7 @@ python3.11 -m venv .venv
 source .venv/bin/activate
 
 #### 3) Install Dependencies
-bashpip install -r requirements.txt
+pip install -r requirements.txt
 
 #### 4) Run Platform
 python run.py
