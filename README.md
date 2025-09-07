@@ -2,6 +2,57 @@
 # Repository Link
 ## https://github.com/VKprogrammer/HiLabs_Submission
 
+# Installation & Setup
+Prerequisites
+
+Python 3.11 (recommended for optimal compatibility)
+Git for cloning the repository
+
+Quick Start Guide
+
+Clone Repository
+bashgit clone [[your-repo-url](https://github.com/VKprogrammer/HiLabs_Submission
+)]
+cd provider-analytics-platform
+
+Create Virtual Environment
+bashpy -3.11 -m venv .venv
+.venv\Scripts\Activate
+Note: On Linux/macOS, use:
+bashpython3.11 -m venv .venv
+source .venv/bin/activate
+
+Install Dependencies
+bashpip install -r requirements.txt
+
+Run Platform
+bashpython run.py
+The system will automatically:
+
+Process the provider data
+Generate validation reports
+Create the database
+Launch the Streamlit dashboard
+
+Allow Streamlit permissions when prompted, and your browser will open the platform interface.
+
+What's Included
+The repository contains all necessary files:
+
+Provider roster data (provider_roster_with_errors.csv)
+Ground truth databases (NY and CA medical license databases)
+Mock NPI registry for validation
+All processing scripts and dependencies
+
+System Requirements
+
+OS: Windows/Linux/macOS
+RAM: Minimum 4GB (8GB recommended)
+Storage: 1GB free space
+Python: 3.11 recommended (3.8+ supported)
+
+
+
 # Problem Statement
 Healthcare provider credentialing accuracy is critical for patient safety, regulatory compliance, and operational efficiency. Errors in provider directories cost the healthcare industry over $3 billion annually and can lead to patient harm, claim denials, and compliance violations. This platform provides healthcare administrators with tools to quickly identify and resolve provider data quality issues through intelligent analytics and interactive interfaces.
 
