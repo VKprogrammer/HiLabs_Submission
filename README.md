@@ -3,30 +3,28 @@
 ## https://github.com/VKprogrammer/HiLabs_Submission
 
 # Installation & Setup
-Prerequisites
+## Prerequisites
 
 Python 3.11 (recommended for optimal compatibility)
 Git for cloning the repository
 
 Quick Start Guide
 
-Clone Repository
-bashgit clone [[your-repo-url](https://github.com/VKprogrammer/HiLabs_Submission
-)]
-cd provider-analytics-platform
+#### 1) Clone Repository
+git clone (https://github.com/VKprogrammer/HiLabs_Submission)
 
-Create Virtual Environment
-bashpy -3.11 -m venv .venv
+#### 2) Create Virtual Environment
+ py -3.11 -m venv .venv
 .venv\Scripts\Activate
 Note: On Linux/macOS, use:
 bashpython3.11 -m venv .venv
 source .venv/bin/activate
 
-Install Dependencies
+#### 3) Install Dependencies
 bashpip install -r requirements.txt
 
-Run Platform
-bashpython run.py
+#### 4) Run Platform
+python run.py
 The system will automatically:
 
 Process the provider data
@@ -36,7 +34,7 @@ Launch the Streamlit dashboard
 
 Allow Streamlit permissions when prompted, and your browser will open the platform interface.
 
-What's Included
+### What's Included
 The repository contains all necessary files:
 
 Provider roster data (provider_roster_with_errors.csv)
@@ -44,7 +42,7 @@ Ground truth databases (NY and CA medical license databases)
 Mock NPI registry for validation
 All processing scripts and dependencies
 
-System Requirements
+### System Requirements
 
 OS: Windows/Linux/macOS
 RAM: Minimum 4GB (8GB recommended)
