@@ -17,7 +17,7 @@ git clone (https://github.com/VKprogrammer/HiLabs_Submission)
  py -3.11 -m venv .venv
 .venv\Scripts\Activate
 Note: On Linux/macOS, use:
-bashpython3.11 -m venv .venv
+python3.11 -m venv .venv
 source .venv/bin/activate
 
 #### 3) Install Dependencies
