@@ -64,7 +64,7 @@ python# NY: Direct boolean comparison
 if license_state == "NY":
     return "correct" if board_certified == "true" else specialty_value
 
-# CA: Specialty matching against board_certification field
+### CA: Specialty matching against board_certification field
 elif license_state == "CA":
     return "correct" if specialty == board_certification else mismatch_value
 
@@ -141,22 +141,4 @@ Sample Questions: Pre-built queries for common use cases
 Result Export: Download query results as CSV
 Visual Feedback: Color-coded responses and error handling
 
-
-
-Prepare Data Files
-Ensure these files are in the root directory:
-
-provider_roster_with_errors.csv
-ca_medical_license_database.csv
-ny_medical_license_database.csv
-mock_npi_registry.csv
-
-
-Run Platform
-bashpython run.py
-OR run components individually:
-bash# Data processing
-python verification.py
-python SQLite.py
-python preprocess_validation.py
 
